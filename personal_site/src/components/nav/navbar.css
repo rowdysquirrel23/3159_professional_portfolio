@@ -21,6 +21,7 @@
 .nav a {
     text-decoration: none;
     color: #262626;
+    background-color: white;
     border: 3px solid #262626 ;
     border-radius: 25%;
     padding: 10%;

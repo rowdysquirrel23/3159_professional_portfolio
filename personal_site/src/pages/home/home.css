@@ -2,7 +2,7 @@
     margin-left: 5%;
     margin-right: 5%;
     border: 3px solid #262626 ;
-    border-radius: 15%;
+    border-radius: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 10%;
@@ -21,10 +21,22 @@
     max-height: 350px;
     border-radius: 50%;
     justify-self: center;
+    border: 3px solid #262626 ;
 }
+
+.home_content{
+
+}
+
+.home_content img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
 
 @media (max-width: 768px) {
     .banner_content {
         grid-template-columns: 1fr;
     }
 }
+
