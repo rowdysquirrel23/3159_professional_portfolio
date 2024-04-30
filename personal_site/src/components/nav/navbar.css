@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+.nav{
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    font-size: 1rem;
+    padding-right: 5%;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+.nav a {
+    text-decoration: none;
+    color: #262626;
+    border: 3px solid #262626 ;
+    border-radius: 25%;
+    padding: 10%;
+  }
