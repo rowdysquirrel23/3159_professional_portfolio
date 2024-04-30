@@ -21,7 +21,7 @@ export default function Home() {
             </section>
             <section className='home_content'>
                 <article className='card1'>
-                    <h2 className='crad1_title'>About Me</h2>
+                    <h2 className='card1_title'>About Me</h2>
                     <p className='card1_text'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Vivamus scelerisque neque vel enim gravida venenatis.
@@ -30,22 +30,22 @@ export default function Home() {
                     </p>
                 </article>
                 <article className='card2'>
-                    <div className='card2_link1'>
+                    <a href='https://github.com/rowdysquirrel23' className='card2_link'>
                         <img src={github} alt='GitHub Icon'></img>
-                        <p>GitHub</p>
-                    </div>
-                    <div className='card2_link2'>
+                        <p className='icon_label'>GitHub</p>
+                    </a>
+                    <a href='https://www.linkedin.com/in/ben-scholefield-web/' className='card2_link'>
                         <img src={linkedin} alt='linkedin icon'></img>
-                        <p>LinkedIn</p>
-                    </div>
-                    <div className='card2_link3'>
+                        <p className='icon_label'>LinkedIn</p>
+                    </a>
+                    <a href='https://www.instagram.com/benscholefield01/' className='card2_link'>
                         <img src={instagram} alt='instagram icon'></img>
-                        <p>Instagram</p>
-                    </div>
+                        <p className='icon_label'>Instagram</p>
+                    </a>
                 </article>
                 <article className='card3'>
-                <h2 className='crad1_title'>Previous Work</h2>
-                    <p className='card1_text'>
+                <h2 className='card3_title'>Previous Work</h2>
+                    <p className='card3_text'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Vivamus scelerisque neque vel enim gravida venenatis.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. 

@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+.footer_section{
+    background-color: black;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.email{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
