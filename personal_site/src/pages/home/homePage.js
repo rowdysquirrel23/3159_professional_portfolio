@@ -53,6 +53,14 @@ export default function Home() {
                     </p>
                 </article>
             </section>
+            <h2 className='skills_title'>Skills</h2>
+            <section className='home_skills'>
+                <p className='skill'>HTML</p>
+                <p className='skill'>CSS</p>
+                <p className='skill'>JavaScript</p>
+                <p className='skill'>React</p>
+                <p className='skill'>Figma</p>
+            </section>
         </div>
     )
     
