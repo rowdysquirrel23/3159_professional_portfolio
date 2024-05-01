@@ -1,13 +1,22 @@
 import './home.css';
+import {Link, useMatch, useResolvedPath} from 'react-router-dom';
 import main_img from '../../assets/portfolio_pic.jpg';
 import github from '../../assets/github_icon.png';
 import linkedin from '../../assets/linkedin.png';
 import instagram from '../../assets/instagram.png';
+import html from '../../assets/html_icon.png';
+import css from '../../assets/css_icon.png';
+import js from '../../assets/js_icon.png';
+import figma from '../../assets/figma_icon.png';
+import react from '../../assets/react_icon.png';
+
+
 
 export default function Home() {
 
     return (
         <div className='home_body'>
+            
             <section className='banner_content'>
                 <article className='personal_info'>
                     <h1 className='portfolio_name'>Ben Scholefield - Web Developer</h1>
@@ -55,11 +64,11 @@ export default function Home() {
             </section>
             <h2 className='skills_title'>Skills</h2>
             <section className='home_skills'>
-                <p className='skill'>HTML</p>
-                <p className='skill'>CSS</p>
-                <p className='skill'>JavaScript</p>
-                <p className='skill'>React</p>
-                <p className='skill'>Figma</p>
+                <img src={html} className='skill' alt='html icon'></img>
+                <img src={css} className='skill' alt='css icon'></img>
+                <img src={js} className='skill' alt='javascript icon'></img>
+                <img src={react} className='skill' alt='react icon'></img>
+                <img src={figma} className='skill' alt='figma icon'></img>
             </section>
         </div>
     )
