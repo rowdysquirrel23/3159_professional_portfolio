@@ -1,5 +1,7 @@
 import {Link, useMatch, useResolvedPath} from 'react-router-dom';
 import './navbar.css';
+import nav_logo from '../../assets/personal_logo.png'
+
 
 export default function Navbar() {
 
@@ -7,8 +9,9 @@ export default function Navbar() {
         <nav className="nav">
             <ul>
                 {/* Active link */}
-                <ActiveLink to="/">Home</ActiveLink>
-                <ActiveLink to="/work">Work</ActiveLink>
+                <ActiveLink to="/">
+                    <img src={nav_logo} className='nav_img' alt='letter b with a bee inside'></img>
+                </ActiveLink>
             </ul>
         </nav>
     )

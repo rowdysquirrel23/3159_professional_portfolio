@@ -1,34 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
-.nav{
-    display: flex;
-    flex-direction: row; 
-    justify-content: flex-end;
-    font-size: 1rem;
-    padding-right: 2%;
-    font-family: "Krona One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #E5E4E2;
-    padding-bottom: 2%;
-  }
+.nav {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  font-size: 1rem;
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #E5E4E2;
+  padding-right: 5%;
+}
 
 .nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
+  list-style: none;
 }
-.nav a {
-    text-decoration: none;
-    color: #262626;
-    background-color: white;
-    border: 3px solid #262626 ;
-    border-radius: 25%;
-    padding: 10%;
-  }
 
-.nav a:hover{
-  color: white;
-  background-color: #262626;
-  border: 3px solid #262626 ;
+.nav_img {
+  max-width: 120px;
+  max-height: 120px;
 }

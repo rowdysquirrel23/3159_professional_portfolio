@@ -66,7 +66,7 @@ export default function Home() {
             </section>
             <h2 className='view_work'>View Previous Work!</h2>
             <section className='previous_work'>
-                <a href='https://elegant-vacherin-e34ddb.netlify.app/' className='work_card'>
+                <Link to={'/work'} className='work_card'>
                     <img src={dubai_logo}  className='work_img' alt='Web based game open in browser'></img>
                     <h3 className='work_title'>Planet Protectors</h3>
                     <p className='work_description'>
@@ -74,7 +74,7 @@ export default function Home() {
                     framework Phaser 3. It was a game designed to be played in the browser
                     and be played accross any device.
                     </p>
-                </a>
+                </Link>
                 <a href='https://elegant-vacherin-e34ddb.netlify.app/' className='work_card'>
                     <img src={dubai_logo} className='work_img' alt='Web based game open in browser'></img>
                     <h3 className='work_title'>Planet Protectors</h3>
