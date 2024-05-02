@@ -9,6 +9,8 @@ import css from '../../assets/css_icon.png';
 import js from '../../assets/js_icon.png';
 import figma from '../../assets/figma_icon.png';
 import react from '../../assets/react_icon.png';
+import web_game from '../../assets/web_game.png';
+import dubai_logo from '../../assets/dubai_site.png';
 
 
 
@@ -61,6 +63,36 @@ export default function Home() {
                     Vivamus scelerisque neque vel enim gravida venenatis.
                     </p>
                 </article>
+            </section>
+            <h2 className='view_work'>View Previous Work!</h2>
+            <section className='previous_work'>
+                <a href='https://elegant-vacherin-e34ddb.netlify.app/' className='work_card'>
+                    <img src={dubai_logo}  className='work_img' alt='Web based game open in browser'></img>
+                    <h3 className='work_title'>Planet Protectors</h3>
+                    <p className='work_description'>
+                    Planet Protectors was a web application developed using the JavaScript
+                    framework Phaser 3. It was a game designed to be played in the browser
+                    and be played accross any device.
+                    </p>
+                </a>
+                <a href='https://elegant-vacherin-e34ddb.netlify.app/' className='work_card'>
+                    <img src={dubai_logo} className='work_img' alt='Web based game open in browser'></img>
+                    <h3 className='work_title'>Planet Protectors</h3>
+                    <p className='work_description'>
+                    Planet Protectors was a web application developed using the JavaScript
+                    framework Phaser 3. It was a game designed to be played in the browser
+                    and be played accross any device.
+                    </p>
+                </a>
+                <a href='https://elegant-vacherin-e34ddb.netlify.app/' className='work_card'>
+                    <img src={dubai_logo}  className='work_img' alt='Web based game open in browser'></img>
+                    <h3 className='work_title'>Planet Protectors</h3>
+                    <p className='work_description'>
+                    Planet Protectors was a web application developed using the JavaScript
+                    framework Phaser 3. It was a game designed to be played in the browser
+                    and be played accross any device.
+                    </p>
+                </a>
             </section>
             <h2 className='skills_title'>Skills</h2>
             <section className='home_skills'>
