@@ -26,7 +26,7 @@ export default function Home() {
                     I am at the end of a BSc (Hons) in Web Design & Development. Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit. 
                     Suspendisse nec vehicula ipsum. Suspendisse molestie bibendum gravida. Duis mollis dolor id enim iaculis efficitur.
-                </p>
+                    </p>
                 </article>
                 <img src={main_img} className='personal_img' alt='Man in a suit and sunglasses'></img>
             </section>
