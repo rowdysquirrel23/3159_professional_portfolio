@@ -31,6 +31,7 @@ export default function Work2() {
             </article>
              {/* Links to the site and Github repository */}
             <article className='portfolio_links'>
+                
                 <a href='https://663949922e909540729f9564--luminous-starlight-a12657.netlify.app/'>
                 <img className='link1'src={site_logo2} alt='Logo of mortgage calculator'></img>
                 <p className='link_text'>View The Site!</p>
