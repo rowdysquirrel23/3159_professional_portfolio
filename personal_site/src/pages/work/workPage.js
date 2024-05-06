@@ -35,7 +35,7 @@ export default function Work() {
                 <p className='link_text'>View The Site!</p>
                 </a>
                 {/* Contain Images and text in link */}
-                <a href='https://github.com/rowdysquirrel23/3159_professional_portfolio.git'>
+                <a href='https://github.com/rowdysquirrel23/large_portfolio_3159.git'>
                 <img className='link2' src={github} alt='GitHUb icon'></img>
                 <p className='link_text'>View The Repository!</p>
                 </a>
