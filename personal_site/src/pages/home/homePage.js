@@ -9,8 +9,9 @@ import css from '../../assets/css_icon.png';
 import js from '../../assets/js_icon.png';
 import figma from '../../assets/figma_icon.png';
 import react from '../../assets/react_icon.png';
-import web_game from '../../assets/web_game.png';
+import web_game from '../../assets/game1.png';
 import dubai_logo from '../../assets/dubai_site.png';
+import mortgage_img from '../../assets/mortgage1.png';
 
 
 
@@ -23,9 +24,9 @@ export default function Home() {
                 <article className='personal_info'>
                     <h1 className='portfolio_name'>Ben Scholefield - Web Developer</h1>
                     <p className='portfolio_description'>
-                    I am at the end of a BSc (Hons) in Web Design & Development. Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit. 
-                    Suspendisse nec vehicula ipsum. Suspendisse molestie bibendum gravida. Duis mollis dolor id enim iaculis efficitur.
+                    I am at the end of a BSc (Hons) in Web Design & Development. I am looking
+                    to start a career in the front-end development industry with a graduate/junior 
+                    role. 
                     </p>
                 </article>
                 <img src={main_img} className='personal_img' alt='Man in a suit and sunglasses'></img>
@@ -34,10 +35,12 @@ export default function Home() {
                 <article className='card1'>
                     <h2 className='card1_title'>About Me</h2>
                     <p className='card1_text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus scelerisque neque vel enim gravida venenatis.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus scelerisque neque vel enim gravida venenatis.
+                    I have come to the end of a degree in Web Design & Development. Throughout my time at University,
+                     I was able to discover my passion for front-end web development. I am located in Rossendale, Lancashire which is close to Manchester.
+                    </p>
+                    <p className='card1_text'>
+                    Outside of work, my hobbies and interests include football, bouldering going to the gym. 
+                    I am an outgoing and active person who can work effectively within a team.
                     </p>
                 </article>
                 <article className='card2'>
@@ -57,10 +60,12 @@ export default function Home() {
                 <article className='card3'>
                 <h2 className='card3_title'>Previous Work</h2>
                     <p className='card3_text'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus scelerisque neque vel enim gravida venenatis.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Vivamus scelerisque neque vel enim gravida venenatis.
+                     During university, I have had to undertake a variety of different projects that required different skill sets.
+                     Some of these tasks are documented on this site and will demonstrate some of the skills I possess. 
+                    </p>
+                    <p className='card3_text'>
+                    HTML, CSS, JavaScript, React and Laravel are the main technologies that were used throughout my time there. 
+                    The combination of these technologies and the ability to implement User Experience design practices have allowed me to develop high-quality applications.
                     </p>
                 </article>
             </section>
@@ -68,29 +73,26 @@ export default function Home() {
             <section className='previous_work'>
                 <Link to={'/work1'} className='work_card'>
                     <img src={dubai_logo}  className='work_img' alt='Web based game open in browser'></img>
-                    <h3 className='work_title'>Planet Protectors</h3>
+                    <h3 className='work_title'> Dubai Landscapes</h3>
                     <p className='work_description'>
-                    Planet Protectors was a web application developed using the JavaScript
+                    {/* Planet Protectors was a web application developed using the JavaScript
                     framework Phaser 3. It was a game designed to be played in the browser
-                    and be played accross any device.
+                    and be played accross any device. */}
+                    Click here to see Dubai Landscapes!
                     </p>
                 </Link>
                 <Link to={'/work2'} className='work_card'>
-                    <img src={dubai_logo} className='work_img' alt='Web based game open in browser'></img>
-                    <h3 className='work_title'>Planet Protectors</h3>
+                    <img src={mortgage_img} className='work_img' alt='Web based game open in browser'></img>
+                    <h3 className='work_title'>Mortgage Calculator</h3>
                     <p className='work_description'>
-                    Planet Protectors was a web application developed using the JavaScript
-                    framework Phaser 3. It was a game designed to be played in the browser
-                    and be played accross any device.
+                    Click here to see the Mortgage Calculator!
                     </p>
                 </Link>
                 <Link to={'/work3'} className='work_card'>
-                    <img src={dubai_logo}  className='work_img' alt='Web based game open in browser'></img>
+                    <img src={web_game}  className='work_img' alt='Web based game open in browser'></img>
                     <h3 className='work_title'>Planet Protectors</h3>
                     <p className='work_description'>
-                    Planet Protectors was a web application developed using the JavaScript
-                    framework Phaser 3. It was a game designed to be played in the browser
-                    and be played accross any device.
+                    Click here to see Planet Protectors!
                     </p>
                 </Link>
             </section>
