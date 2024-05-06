@@ -1,10 +1,10 @@
 // Import images and stylesheet for page
 import './work.css';
-import github from '../../assets/github_icon.png';
-import game_logo from '../../assets/game_logo.png';
-import game1 from '../../assets/game1.png';
-import game2 from '../../assets/game2.png';
-import game3 from '../../assets/game3.png';
+import github from '../../assets/github_icon.webp';
+import game_logo from '../../assets/game_logo.webp';
+import game1 from '../../assets/game1.webp';
+import game2 from '../../assets/game2.webp';
+import game3 from '../../assets/game3.webp';
 //Export function for routes
 export default function Work3() {
     return (

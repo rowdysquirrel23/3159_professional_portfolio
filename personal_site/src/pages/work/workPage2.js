@@ -1,10 +1,10 @@
 // Import images and stylesheet for page
 import './work.css';
-import github from '../../assets/github_icon.png';
-import site_logo2 from '../../assets/calculator_icon.png';
-import mortgage1 from '../../assets/mortgage1.png';
-import mortgage2 from '../../assets/mortgage2.png';
-import mortgage3 from '../../assets/mortgage3.png';
+import github from '../../assets/github_icon.webp';
+import site_logo2 from '../../assets/calculator_icon.webp';
+import mortgage1 from '../../assets/mortgage1.webp';
+import mortgage2 from '../../assets/mortgage2.webp';
+import mortgage3 from '../../assets/mortgage3.webp';
 //Export function for routes
 export default function Work2() {
     return (

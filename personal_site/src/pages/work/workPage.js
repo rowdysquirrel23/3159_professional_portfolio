@@ -1,10 +1,10 @@
 // Import images and stylesheet for page
 import './work.css';
-import github from '../../assets/github_icon.png';
-import site_logo from '../../assets/dubai_logo.png';
-import dubai_logo from '../../assets/dubai_site.png';
-import gallery2 from '../../assets/gallery2.png';
-import gallery3 from '../../assets/gallery3.png';
+import github from '../../assets/github_icon.webp';
+import site_logo from '../../assets/dubai_logo.webp';
+import dubai_logo from '../../assets/dubai_site.webp';
+import gallery2 from '../../assets/gallery2.webp';
+import gallery3 from '../../assets/gallery3.webp';
 //Export function for routes
 export default function Work() {
     return (

@@ -1,6 +1,7 @@
+// Imports for nav
 import {Link, useMatch, useResolvedPath} from 'react-router-dom';
 import './navbar.css';
-import nav_logo from '../../assets/personal_logo.png'
+import nav_logo from '../../assets/personal_logo.webp'
 
 
 export default function Navbar() {
@@ -16,7 +17,7 @@ export default function Navbar() {
         </nav>
     )
 }
-
+// Define active link to be used
 function ActiveLink ({to, children,...props }) {
     const ResolvedPath = useResolvedPath(to)
     const isActive = useMatch({path: ResolvedPath.pathname, end:true})

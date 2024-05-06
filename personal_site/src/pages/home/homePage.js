@@ -1,18 +1,18 @@
 // Import stylesheet and images 
 import './home.css';
 import {Link} from 'react-router-dom';
-import main_img from '../../assets/portfolio_pic.jpg';
-import github from '../../assets/github_icon.png';
-import linkedin from '../../assets/linkedin.png';
-import instagram from '../../assets/instagram.png';
-import html from '../../assets/html_icon.png';
-import css from '../../assets/css_icon.png';
-import js from '../../assets/js_icon.png';
-import figma from '../../assets/figma_icon.png';
-import react from '../../assets/react_icon.png';
-import web_game from '../../assets/game1.png';
-import dubai_logo from '../../assets/dubai_site.png';
-import mortgage_img from '../../assets/mortgage1.png';
+import main_img from '../../assets/portfolio_pic.webp';
+import github from '../../assets/github_icon.webp';
+import linkedin from '../../assets/linkedin.webp';
+import instagram from '../../assets/instagram.webp';
+import html from '../../assets/html_icon.webp';
+import css from '../../assets/css_icon.webp';
+import js from '../../assets/js_icon.webp';
+import figma from '../../assets/figma_icon.webp';
+import react from '../../assets/react_icon.webp';
+import web_game from '../../assets/game1.webp';
+import dubai_logo from '../../assets/dubai_site.webp';
+import mortgage_img from '../../assets/mortgage1.webp';
 //Export function for routes
 export default function Home() {
 
