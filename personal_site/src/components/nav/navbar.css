@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-
+/* STyle the nav bar */
 .nav {
   display: flex;
   justify-content: center; /* Center items horizontally */
@@ -11,11 +11,11 @@
   background-color: #E5E4E2;
   padding-right: 5%;
 }
-
+/* Remove list styling */
 .nav ul {
   list-style: none;
 }
-
+/* Se max size */
 .nav_img {
   max-width: 120px;
   max-height: 120px;
