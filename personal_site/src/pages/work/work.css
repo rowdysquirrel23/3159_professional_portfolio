@@ -1,3 +1,4 @@
+/* Styling for title */
 .portfolio_title{
     font-size: 3rem;
     text-align: center;
@@ -7,35 +8,39 @@
     border-bottom: 2px solid #262626;
     margin-right: 5%;
 }
-
+/* Display grid  */
 .portfolio_work{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-left: 5%;
     margin-right: 5%;
 }
-
+/* Adjust font size */
 .work_question{
     font-size: 2rem;
 }
+/* Style links */
 .portfolio_links{
     justify-self: center;
 }
+/* Style image links */
 .portfolio_links img{
     max-width: 100px;
     max-height: 100px;
 }
+/* Remove styling from links */
 a{
     text-decoration: none;
     color: #262626;
 }
+/* Style gallery title */
 .gallery_title{
     margin-left: 5%;
     margin-right: 5%;
     font-size: 2rem;
-    /* border-top: 2px solid #262626; */
     padding-top: 3%;
 }
+/* Display grid for gallery section */
 .portfolio_gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -43,21 +48,25 @@ a{
     margin-right: 5%;
     padding-bottom: 3%;
 }
+/* Style Images in gallery */
 .portfolio_gallery img{
     max-width: 350px;
     max-height: 350px;
     border: 2px solid #262626 ;
 }
 
-
+/* Media query for mobile compatibility */
 @media (max-width: 768px) {
     .portfolio_title{
         font-size: 2rem;
+        margin-right: 10%;
+        margin-left: 10%;
     }
     .portfolio_work{
         grid-template-columns: 1fr;
     }
     .portfolio_gallery {
         grid-template-columns: 1fr;
+        grid-gap: 1%;
     }
 }
